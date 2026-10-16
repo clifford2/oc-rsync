@@ -61,3 +61,9 @@ Prerequisites:
 - rsync must be installed. The `oc rsync` command uses the local `rsync` tool, if present on the client machine and the remote container.
 - If `rsync` is not found locally or in the remote container, a tar archive is created locally and sent to the container where the tar utility is used to extract the files. If tar is not available in the remote container, the copy will fail.
 - The tar copy method does not provide the same functionality as `oc rsync`. For example, `oc rsync` creates the destination directory if it does not exist and only sends files that are different between the source and the destination.
+
+## License & Disclaimer
+
+This code is shared under the MIT No Attribution License.
+It is provided *AS IS*, without warranty of any kind.
+See [`LICENSES/MIT-0.txt`](LICENSES/MIT-0.txt) for the full license text and disclaimer.
